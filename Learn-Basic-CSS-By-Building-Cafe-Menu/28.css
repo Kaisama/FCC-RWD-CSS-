@@ -1,0 +1,22 @@
+Step 28
+Since the cafe's main product for sale is coffee, you could use an image of coffee beans for the background of the page.
+
+Delete the comment and its contents inside the body type selector. 
+Now add a background-image property and set its value to url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg).
+
+Sol:-
+
+body {
+  background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+}
