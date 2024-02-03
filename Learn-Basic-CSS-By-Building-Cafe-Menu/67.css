@@ -1,0 +1,58 @@
+Step 67
+The default properties of an hr element will make it appear as a thin light grey line. You can change the height of the line by specifying a value for the height property.
+
+Change the height of the hr element to be 3px.
+
+Sol:-
+
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+hr{
+  height:3px;
+}
+
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+.item p {
+  display: inline-block;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%
+}
