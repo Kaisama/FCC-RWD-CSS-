@@ -1,0 +1,38 @@
+Step 57
+You can change the font-family of text, to make it look different from the default font of your browser. Each browser has some common fonts available to it.
+
+Change all the text in your body, by adding a font-family property with the value sans-serif. This is a fairly common font that is very readable.
+
+Sol:-
+
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family:sans-serif;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.item p {
+  display: inline-block;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%
+}
