@@ -1,0 +1,35 @@
+Step 64
+Even without the color-stops, you might have noticed that the colors for the green marker transition at the same points as the red marker. The first color is at the start (0%), the second is in the middle (50%), and the last is at the end (100%) of the gradient line.
+
+The linear-gradient function automatically calculates these values for you, and places colors evenly along the gradient line by default.
+
+In the .red CSS rule, remove the three color stops from the linear-gradient function to clean up your code a bit.
+
+Sol:-
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+
+.red {
+  background: linear-gradient(180deg, rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+}
+
+.green {
+  background: linear-gradient(180deg, #55680D, #71F53E, #116C31);
+}
+
+.blue {
+  background-color: hsl(240, 100%, 50%);
+}
