@@ -1,0 +1,33 @@
+Step 53
+As you can see, the linear-gradient function produced a smooth red-green gradient. While the linear-gradient function needs a minimum of two color arguments to work, it can accept many color arguments.
+
+Use the rgb function to add pure blue as the third color argument to the linear-gradient function.
+
+Sol:-
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+
+.red {
+  background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0),rgb(0,0,255));
+}
+
+.green {
+  background-color: #007F00;
+}
+
+.blue {
+  background-color: hsl(240, 100%, 50%);
+}
