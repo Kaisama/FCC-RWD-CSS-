@@ -1,0 +1,37 @@
+Step 34
+There are three more tertiary colors: chartreuse green (green + yellow), azure (blue + cyan), and rose (red + magenta).
+
+To create chartreuse green, update the rgb function in the .one CSS rule so that red is at 127, and set green to the max value.
+
+For azure, update the rgb function in the .two CSS rule so that green is at 127 and blue is at the max value.
+
+And for rose, which is sometimes called bright pink, update the rgb function in the .three CSS rule so that blue is at 127 and red is at the max value.
+
+Sol:-
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+
+.one {
+  background-color: rgb(127, 255, 0);
+}
+
+.two {
+  background-color: rgb(0, 127, 255);
+}
+
+.three {
+  background-color: rgb(255, 0, 127);
+}
