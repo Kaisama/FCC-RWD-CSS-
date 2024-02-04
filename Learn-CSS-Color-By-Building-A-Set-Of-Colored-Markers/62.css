@@ -1,0 +1,31 @@
+Step 62
+For the second color argument, use a hex color code with the values 71 for red, F5 for green, and 3E for blue.
+
+Sol:-
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+
+.red {
+  background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
+}
+
+.green {
+  background: linear-gradient(180deg, #55680D,#71F53E);
+}
+
+.blue {
+  background-color: hsl(240, 100%, 50%);
+}
