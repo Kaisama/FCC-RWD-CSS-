@@ -1,0 +1,52 @@
+Step 87
+As you can see, you added a simple red shadow around your marker that's 5 pixels to the right, and 5 pixels down.
+
+But what if you wanted to position your shadow on the opposite side? You can do that by using negative values for offsetX and offsetY.
+
+Update the values for the box-shadow property, and set offsetX to -5px, and offsetY to -5px.
+
+Sol:-
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+
+.cap {
+  width: 60px;
+  height: 25px;
+}
+
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap, .sleeve {
+  display: inline-block;
+}
+
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: -5px -5px red;
+}
+
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+}
+
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+}
