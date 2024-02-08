@@ -1,0 +1,9 @@
+Step 9
+Add the height property with the value 600px to your .canvas rule.
+
+Sol:-
+
+.canvas {
+  width: 500px;
+height:600px;
+}
