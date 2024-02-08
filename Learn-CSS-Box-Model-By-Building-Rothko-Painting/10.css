@@ -1,0 +1,10 @@
+tep 10
+Change the background-color of the canvas to #4d0f00.
+
+sol:-
+
+.canvas {
+  width: 500px;
+  height: 600px;
+background-color:#4d0f00;
+}
