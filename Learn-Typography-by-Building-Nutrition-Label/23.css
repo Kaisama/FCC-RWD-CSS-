@@ -1,0 +1,10 @@
+Step 23
+Now we can add the horizontal spacing using flex. In your p selector, add a display property set to flex and a justify-content property set to space-between.
+
+Sol:-
+
+p {
+  margin: 0;
+  display:flex;
+  justify-content:space-between;
+}
