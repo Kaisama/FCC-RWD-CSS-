@@ -1,0 +1,7 @@
+Step 32
+Create a .calories-info h2 selector and remove all margins.
+
+Sol:-
+.calories-info h2{
+  margin:0;
+}
