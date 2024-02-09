@@ -1,0 +1,9 @@
+Step 35
+Create a new .left-container p selector setting the top and bottom margin to -5px, and the left and right margin to -2px. Also set the font-size to 2em and font-weight to 700.
+
+Sol:-
+left-container p{
+  margin: -5px -2px;
+  font-size:2em;
+  font-weight:700;
+}
