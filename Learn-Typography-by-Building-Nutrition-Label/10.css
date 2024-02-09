@@ -1,0 +1,9 @@
+Step 10
+Give your .label selector a margin property set to 20px auto, and a padding property set to 0 7px.
+Sol:-
+.label {
+  border: 2px solid black;
+  width: 270px;
+  margin:20px auto;
+  padding: 0 7px;
+}
