@@ -1,0 +1,11 @@
+Step 37
+Typography is often more art than science. You may have to tweak things like alignment until it looks correct.
+
+Give your .calories-info span selector a margin set to -7px -2px. This will shift your 230 text into place.
+
+Sol:-
+.calories-info span {
+  font-size: 2.4em;
+  font-weight: 700;
+  margin:-7px -2px;
+}
