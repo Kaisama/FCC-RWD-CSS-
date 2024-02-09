@@ -1,0 +1,6 @@
+Give your h1 selector a text-align property of center.
+Sol:-
+h1 {
+  font-weight: 800;
+  text-align:center;
+}
