@@ -1,0 +1,8 @@
+Step 11
+Change the h1 font color to #f1be32, and set the font size to min(5vw, 1.2em).
+
+Sol:-
+h1{
+  color:#f1be32;
+  font-size:min(5vw,1.2em);
+}
