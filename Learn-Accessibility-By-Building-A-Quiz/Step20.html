@@ -1,0 +1,23 @@
+Step 20
+It is important to link each input to the corresponding label element. This provides assistive technology users with a visual reference to the input.
+
+This is done by giving the label a for attribute, which contains the id of the input.
+
+This section will take a student's name, email address, and date of birth. Give the label elements appropriate for attributes, as well as text content. Then, link the input elements to the corresponding label elements.
+
+Sol:-
+  <section role="region" aria-labelledby="student-info">
+          <h2 id="student-info">Student Info</h2>
+          <div class="info">
+            <label for="student-name">Student's Name : </label>
+            <input id="student-name"type="text"/>
+          </div>
+          <div class="info">
+            <label for="email-address">Email Address : </label>
+            <input id="email-address" type="email"/>
+          </div>
+          <div class="info">
+            <label for="date-of-birth">Date of birth : </label>
+            <input id="date-of-birth" type="date"/>
+          </div>
+        </section>
