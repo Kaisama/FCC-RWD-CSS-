@@ -1,0 +1,12 @@
+Step 13
+The child combinator selector > is used between selectors to target only elements that match the second selector and are a direct child of the first selector.
+
+This can be helpful when you have deeply nested elements and want to control the scope of your styling.
+
+Use the > selector to target the unordered list elements within the nav elements, and use Flexbox to evenly space the children.
+
+Sol:-
+nav > ul{
+  display:flex;
+  justify-content:space-evenly;
+}
