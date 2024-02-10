@@ -1,0 +1,12 @@
+Step 56
+Target all label elements within .info elements, and set their width to 10%, and make it so they do not take up less than 55px.
+
+Sol:-
+.info input {
+  width: 50%;
+  text-align: left;
+}
+.info label{
+  width:10%;
+  min-width:55px;
+}
