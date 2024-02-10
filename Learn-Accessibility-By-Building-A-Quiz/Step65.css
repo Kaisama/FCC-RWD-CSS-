@@ -1,0 +1,8 @@
+Step 65
+Horizontally center all the text within the address element, and add some padding.
+
+Sol:-
+address{
+  text-align:center;
+  padding:1px;
+}
