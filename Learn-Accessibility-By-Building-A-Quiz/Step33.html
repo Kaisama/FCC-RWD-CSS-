@@ -1,0 +1,45 @@
+Step 33
+If you click on the radio inputs, you might notice both inputs within the same true/false fieldset can be selected at the same time.
+
+Group the relevant inputs together such that only one input from a pair can be selected at a time.
+
+Sol:-
+
+
+              <ul class="answers-list">
+                <li>
+                  <label for="q1-a1">
+                    <input type="radio" id="q1-a1" value="true" name="true"  />
+                    True
+                  </label>
+                </li>
+                <li>
+                  <label for="q1-a2">
+                    <input type="radio" id="q1-a2" value="false" name="true" />
+                    False
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="question-block">
+            <p>2</p>
+            <fieldset class="question" name="html-question-two">
+              <legend>
+                A label element nesting an input element is required to have a
+                for attribute with the same value as the input's id
+              </legend>
+              <ul class="answers-list">
+                <li>
+                  <label for="q2-a1">
+                    <input type="radio" id="q2-a1" value="true" name="l1"/>
+                    True
+                  </label>
+                </li>
+                <li>
+                  <label for="q2-a2">
+                    <input type="radio" id="q2-a2" value="false" name="l1"/>
+                    False
+                  </label>
+                </li>
+              </ul>
