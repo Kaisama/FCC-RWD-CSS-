@@ -1,0 +1,8 @@
+Step 55
+To make the first section look more inline, target only the input elements within .info elements, and set their width to 50%, and left-align their text.
+
+sol:-
+.info input{
+  width:50%;
+  text-align:left;
+} 
