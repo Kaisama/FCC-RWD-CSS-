@@ -1,0 +1,10 @@
+Step 10
+Make the header take up the full width of its parent container, set its height to 50px, and set the background-color to #1b1b32. Then, set the display to use Flexbox.
+
+Sol:-
+header{
+  height:50px;
+  width:100%;
+  background-color:#1b1b32;
+  display:flex;
+}
