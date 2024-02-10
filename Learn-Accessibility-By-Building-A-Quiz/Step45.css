@@ -1,0 +1,15 @@
+Step 45
+Back to styling the page. Select the list elements within the navigation bar, and give them the following styles:
+
+color: #dfdfe2;
+margin: 0 0.2rem;
+padding: 0.2rem;
+display: block;
+
+Sol:-
+nav li{
+color: #dfdfe2;
+margin: 0 0.2rem;
+padding: 0.2rem;
+display: block;
+}
