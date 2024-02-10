@@ -1,0 +1,7 @@
+Step 64
+Now, we cannot read the text. Target the footer and the anchor element within to set the font color to a color of adequate contrast ratio.
+
+Sol:-
+footer,footer a{
+ color:#dfdfe2;
+}
