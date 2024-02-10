@@ -1,0 +1,14 @@
+Step 54
+Give the .formrow elements top margin, and left and right padding. The other padding values should be 0.
+
+Then, increase the font size for all input elements.
+
+
+Sol:-
+.formrow{
+  margin:1px 1px 1px 0;
+  padding:0 1px;
+}
+input{
+  font-size:13px;
+}
