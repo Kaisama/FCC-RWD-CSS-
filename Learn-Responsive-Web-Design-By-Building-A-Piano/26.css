@@ -1,0 +1,12 @@
+Step 26
+Give the .key.black--key::after selector a border-radius of 0 0 3px 3px to match the keys.
+sol:-
+.key.black--key::after {
+  background-color: #1d1e22;
+  content: "";
+  position: absolute;
+  left: -18px;
+  width: 32px;
+  height: 100px;
+  border-radius:0 0 3px 3px;
+}
